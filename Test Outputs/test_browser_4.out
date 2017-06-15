@@ -1,0 +1,84 @@
+>>> open_new_page metu.edu.tr
+
+>>> open_link metu.edu.tr/general-information
+
+>>> open_link metu.edu.tr/university-administration
+
+>>> open_link metu.edu.tr/graduate-programs-and-degrees-offered-metu
+
+>>> open_link map.metu.edu.tr
+
+>>> display
+CURRENT TAB: 0
+map.metu.edu.tr
+OPEN TABS: 1
+map.metu.edu.tr
+CLOSED TABS: 0
+
+>>> display_tab_details
+> map.metu.edu.tr
+metu.edu.tr/graduate-programs-and-degrees-offered-metu
+metu.edu.tr/university-administration
+metu.edu.tr/general-information
+metu.edu.tr
+
+>>> back
+
+>>> back
+
+>>> back
+
+>>> display_tab_details
+map.metu.edu.tr
+metu.edu.tr/graduate-programs-and-degrees-offered-metu
+metu.edu.tr/university-administration
+> metu.edu.tr/general-information
+metu.edu.tr
+
+>>> forward
+
+>>> forward
+
+>>> display_tab_details
+map.metu.edu.tr
+> metu.edu.tr/graduate-programs-and-degrees-offered-metu
+metu.edu.tr/university-administration
+metu.edu.tr/general-information
+metu.edu.tr
+
+>>> back
+
+>>> back
+
+>>> display_tab_details
+map.metu.edu.tr
+metu.edu.tr/graduate-programs-and-degrees-offered-metu
+metu.edu.tr/university-administration
+> metu.edu.tr/general-information
+metu.edu.tr
+
+>>> open_link ceng.metu.edu.tr
+
+>>> display_tab_details
+> ceng.metu.edu.tr
+metu.edu.tr/general-information
+metu.edu.tr
+
+>>> forward
+
+>>> display_tab_details
+> ceng.metu.edu.tr
+metu.edu.tr/general-information
+metu.edu.tr
+
+>>> back
+
+>>> back
+
+>>> back
+
+>>> display_tab_details
+ceng.metu.edu.tr
+metu.edu.tr/general-information
+> metu.edu.tr
+

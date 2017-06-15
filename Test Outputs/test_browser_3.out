@@ -1,0 +1,100 @@
+>>> open_new_page ceng.metu.edu.tr
+
+>>> open_new_page metu.edu.tr
+
+>>> open_link metu.edu.tr/faculties-institutes-schools
+
+>>> open_link_in_new_tab ii.metu.edu.tr
+
+>>> select_tab 0
+
+>>> open_link_in_new_tab ceng.metu.edu.tr/announcement/fall-2016-2017-course-schedule
+
+>>> open_link_in_new_tab ceng.metu.edu.tr/staff
+
+>>> open_link_in_new_tab ceng.metu.edu.tr/assistants
+
+>>> display
+CURRENT TAB: 3
+ceng.metu.edu.tr/assistants
+OPEN TABS: 6
+ceng.metu.edu.tr
+ceng.metu.edu.tr/announcement/fall-2016-2017-course-schedule
+ceng.metu.edu.tr/staff
+ceng.metu.edu.tr/assistants
+metu.edu.tr/faculties-institutes-schools
+ii.metu.edu.tr
+CLOSED TABS: 0
+
+>>> close_selected_tab
+
+>>> close_tab 1
+
+>>> display
+CURRENT TAB: 2
+metu.edu.tr/faculties-institutes-schools
+OPEN TABS: 4
+ceng.metu.edu.tr
+ceng.metu.edu.tr/staff
+metu.edu.tr/faculties-institutes-schools
+ii.metu.edu.tr
+CLOSED TABS: 2
+ceng.metu.edu.tr/announcement/fall-2016-2017-course-schedule
+ceng.metu.edu.tr/assistants
+
+>>> reopen_closed_tab
+
+>>> display
+CURRENT TAB: 1
+ceng.metu.edu.tr/announcement/fall-2016-2017-course-schedule
+OPEN TABS: 5
+ceng.metu.edu.tr
+ceng.metu.edu.tr/announcement/fall-2016-2017-course-schedule
+ceng.metu.edu.tr/staff
+metu.edu.tr/faculties-institutes-schools
+ii.metu.edu.tr
+CLOSED TABS: 1
+ceng.metu.edu.tr/assistants
+
+>>> move_tab 4 1
+
+>>> display
+CURRENT TAB: 1
+ii.metu.edu.tr
+OPEN TABS: 5
+ceng.metu.edu.tr
+ii.metu.edu.tr
+ceng.metu.edu.tr/announcement/fall-2016-2017-course-schedule
+ceng.metu.edu.tr/staff
+metu.edu.tr/faculties-institutes-schools
+CLOSED TABS: 1
+ceng.metu.edu.tr/assistants
+
+>>> move_tab 4 2
+
+>>> display
+CURRENT TAB: 2
+metu.edu.tr/faculties-institutes-schools
+OPEN TABS: 5
+ceng.metu.edu.tr
+ii.metu.edu.tr
+metu.edu.tr/faculties-institutes-schools
+ceng.metu.edu.tr/announcement/fall-2016-2017-course-schedule
+ceng.metu.edu.tr/staff
+CLOSED TABS: 1
+ceng.metu.edu.tr/assistants
+
+>>> reopen_closed_tab
+
+>>> display
+CURRENT TAB: 3
+ceng.metu.edu.tr/assistants
+OPEN TABS: 6
+ceng.metu.edu.tr
+ii.metu.edu.tr
+metu.edu.tr/faculties-institutes-schools
+ceng.metu.edu.tr/assistants
+ceng.metu.edu.tr/announcement/fall-2016-2017-course-schedule
+ceng.metu.edu.tr/staff
+CLOSED TABS: 0
+

@@ -1,0 +1,20 @@
+open_new_page ceng.metu.edu.tr
+open_new_page metu.edu.tr
+open_link metu.edu.tr/faculties-institutes-schools
+open_link_in_new_tab ii.metu.edu.tr
+select_tab 0
+open_link_in_new_tab ceng.metu.edu.tr/announcement/fall-2016-2017-course-schedule
+open_link_in_new_tab ceng.metu.edu.tr/staff
+open_link_in_new_tab ceng.metu.edu.tr/assistants
+display
+close_selected_tab
+close_tab 1
+display
+reopen_closed_tab
+display
+move_tab 4 1
+display
+move_tab 4 2
+display
+reopen_closed_tab
+display
