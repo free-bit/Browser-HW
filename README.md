@@ -4,3 +4,4 @@ Data Structures (Stack, Linked List)<br />
 <br />
 Usage:<br />
 g++ Browser.cpp Tab.cpp -o Browser
+./Browser < input_file > output_file
